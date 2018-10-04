@@ -1,7 +1,8 @@
 # Roman Niukhalov CV
 
 ## Screenshot
-![text](niukhalov_cv.png]
+
+![text](niukhalov_cv.png)
 
 ## Class Options
  - `calibri` - sets calibri as the main font. Otherwise the default font is Times New Roman since version 1.1.0.
