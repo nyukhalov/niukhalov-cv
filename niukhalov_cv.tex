@@ -1,0 +1,95 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{cv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Roman Niukhalov}
+\address{Bangkok, Thailand}
+\contacts{+66 (97) 002-9407 \linebreak r.nyukhalov@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Software Engineer}{Agoda}{Summer 2017 -- Present}
+			\begin{itemize}
+				\item Designed and developed with a team a distributed system for updating hotel prices by pulling and aggregating partner's data.
+				\item Reduced load on a monitoring system by more than 1000\% by aggregating measurements on a client before sending them to the system.
+        \item Reduced the number of missed phone calls to a person on call by creating a slack bot reminding one when (s)he is on call.
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Software Engineer}{2GIS}{Winter 2015 -- Summer 2017}
+			\begin{itemize}
+				\item Created with a team an automated pipeline for importing geodata from OpenSteetMap and merging it with internal geodata.
+				\item Created a geosearch API for querying geodata features by a feature class and a bounding box.
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Software Engineer}{Center of Financial Technologies}{Spring 2013 -- Winter 2015}
+			\begin{itemize}
+        \item Developed a Java library for performing contactless payments using Android Host-base Card Emulation (Certified by Visa).
+        \item Developed with a team firmware for Point-of-Sale (POS) terminals.
+        \item Reduced time of testing firmware for JavaCard applets by creating an automated testing framework.
+			\end{itemize}
+		\end{cvsubsection}
+
+	\end{cvsection}
+
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Novosibirsk, Russia}{Novosibirsk State Technical University}{Fall 2007 -- Summer 2011}
+			\begin{itemize}
+				\item B.S.E. in Applied Mathematics and Computer Science, June 2011.
+				\item Undergraduate Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Comp. Architecture; Linear Algebra; Calculus.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Course Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Advanced Lane Finding} (2018). A software pipeline to identify the lane boundaries in a video. The pipeline consists of several computer vision techniques such as color and gradient thresholding, and perspective transformation.
+				\item \textbf{Traffic Sign Recognition} (2018). A convolutional neural network for classifying traffic sign images using the German Traffic Sign Dataset.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item C++; C; Java; Scala; Python
+				\item Intellij Idea; Git; PostgreSQL; Cassandra; Couchbase; Kafka
+				\item Docker; Docker Compose; Kubernetes
+				\item Jenkins, Gitlab CI, Teamcity, Bamboo
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+\end{document}
