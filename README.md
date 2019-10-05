@@ -20,4 +20,9 @@ The class features the following commands:
 
 ## Build Instructions
 - Make sure `lualatex` (see http://www.luatex.org/download.html) is installed on your machine and is available in the terminal or a command line client of your choice.
+  - Install `lualatex` via `brew`
+    ```
+    brew cask install mactex
+    brew cask install texmaker
+    ```
 - In the terminal or a command line client of your choice, go to the folder containing `niukhalov_cv.tex` and `cv.cls`, and run the following command: `lualatex niukhalov_cv.tex`.
